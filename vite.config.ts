@@ -34,7 +34,7 @@ export default defineConfig({
     // 서버->번들(webpack), 로컬->모듈(vite)
     proxy: {
       '/api': { target: 'http://localhost:2999' }
-    }
+    } 
   },
   build: {
     rollupOptions: {
