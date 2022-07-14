@@ -53,7 +53,7 @@ export default async function handler(request: VercelRequest, response: VercelRe
           <meta property="twitter:title" content="${title}" />
           <meta property="twitter:description" content="${content}" />
           <meta property="twitter:image" content="${poster}" />
-          <meta property="twitter:url" content="https://notion-vite-vue3-ts-iota.vercel.app//workspaces/${id}" />
+          <meta property="twitter:url" content="https://notion-vite-vue3-ts-iota.vercel.app/workspaces/${id}" />
           <link rel="icon" href="https://heropy.blog/css/images/logo.png">
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
           <link rel="preconnect" href="https://fonts.googleapis.com">
